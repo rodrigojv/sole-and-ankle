@@ -31,7 +31,6 @@ const MainHeader = styled.div`
   border-bottom: 1px solid ${COLORS.gray[300]};
 
   display: flex;
-  gap: 48px;
   align-items: baseline;
   padding-top: 24px;
   padding-bottom: 24px;
@@ -42,6 +41,7 @@ const Nav = styled.nav`
   display: flex;
   justify-content: center;
   gap: 48px;
+  margin-left: auto;
 `;
 
 const NavLink = styled.a`
